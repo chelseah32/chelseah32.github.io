@@ -23,7 +23,7 @@ button {
     border-radius: 4px;
     color: #0c4a60;
     font-size: 16px;
-  font-weight: bold;
+    font-weight: bold;
     padding: 18px 40px;
 }
 #slogan {
@@ -40,6 +40,11 @@ h1 {
   line-height: 0px;
   color: #0c4a60;
 }
+h2{
+  font-family: "Avenir", sans-serif;
+  font-size: 25px;
+  font-weight: 500;color: #0c4a60;
+}
 p {
   font-family: "Avenir", sans-serif;
   font-size: 22px;
@@ -53,11 +58,7 @@ ul {
   text-align: center !important;
 }
 #slogan {
-  font-family: "Avenir", sans-serif;
-  font-size: 25px;
-  font-weight: 500;
-  font-style: italic;
-  color: #0c4a60;
+  text-transform: italic;
 }
 #subhead {
   font-weight: 600;
