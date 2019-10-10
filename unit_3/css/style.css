@@ -1,0 +1,42 @@
+body {
+    background-color: #f1f8fe;
+  color: #2b2d36;
+}
+h1 {
+  font-family: "Unica One", sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 0px;
+  color: #0c4a60;
+}
+p {
+  font-family: "Avenir", sans-serif;
+  font-size: 22px;
+  font-weight: regular;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+.body-copy {
+  text-align: center !important;
+}
+#slogan {
+  font-family: "Avenir", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: #0c4a60;
+}
+#subhead {
+  font-weight: 600;
+}
+#list {
+  font-family: "Avenir", sans-serif;
+  font-size: 22px;
+  font-weight: regular;
+  align: center;
+}
+#contact {
+  font-size: 16px;
+}
