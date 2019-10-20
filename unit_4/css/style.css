@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+
+body {
+ margin: 0;
+  background-color: #f8fdff;
+  color: #00004d;
+}
+button {
+    background-color: #ffce3b;
+    border: none;
+    border-radius: 4px;
+    color: #0c4a60;
+    font-size: 16px;
+  font-weight: bold;
+    padding: 18px 40px;
+}
+h1 {
+  font-family: "Unica One", sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 0px;
+  color: #0c4a60;
+}
+p {
+  font-family: "Avenir", sans-serif;
+  font-size: 22px;
+  font-weight: regular;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+.hero-image{
+  background-image: linear-gradient(rgba(255,0,151, 0.5), rgba(0, 0, 0, 0)), url(https://res.cloudinary.com/rocketmiles/image/upload/v1570682876/social/jeremy-perret-4rV-j4yPvs8-unsplash.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+  text-align: left;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.body-copy {
+  text-align: center !important;
+  margin: 2em;
+}
+#slogan {
+  font-family: "Avenir", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: #0c4a60;
+}
+#subhead {
+  font-weight: 700;
+  font-family: 'Maven Pro', sans-serif;
+}
+#list {
+  font-family: "Avenir", sans-serif;
+  font-size: 22px;
+  font-weight: regular;
+  align: center;
+}
+#contact {
+  margin-top: 90px;
+  font-size: 16px;
+}
