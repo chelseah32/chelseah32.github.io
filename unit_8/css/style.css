@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;}
 
 body {
-  margin: 0;
   background-color: #f8fdff;
-  font-family: "Avenir", sans-serif; 
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px; 
-  line-height: 1.5em;
+  line-height: 1.5;
   font-weight: normal;
   color: #00004D;
-}
-
-.wrapper {
-  margin: 0;
 }
 
 header{
@@ -20,19 +20,22 @@ header{
   background-color: #b2d7e6;
 }
 
+nav {
+  float: right;
+  margin-top: 2.8em;
+}
+
 h1 {
-  display: inline-block;
-  padding: 10px 0 10px 50px;
+  float:left;
+  padding: .14em 0 .14em .7em;
   font-family: "Unica One", sans-serif;
   font-size: 3.2em;
-  line-height: 0em;
   font-weight: 600;
   color: #0C4A60;
 }  
 
 .nav-links-top {
-  float: right;
-  padding: 0 .9em;
+  padding: 0 .5em;
   font-size: .8em;
   color:#00004D;
   text-decoration:none;
@@ -64,7 +67,7 @@ button {
   border: none;
   border-radius: 8px;
   font-size: .8em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #main {
@@ -75,9 +78,8 @@ button {
 #subhead {
   text-align: center;
   margin: 0 2em 1.5em 2em;
-  font-family: 'Maven Pro', sans-serif;
   font-size: 1.1em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .row {
@@ -85,49 +87,32 @@ button {
   text-align: center;
 }
 
-#explore {
-  width:29%;
-  max-width: 260px;
-  height: auto; 
-  padding-right: 5px;
-}
-
-#plan {
-  width:29%;
-  max-width: 260px;
-  height: auto; 
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-#pack {
-  width:29%;
-  max-width: 260px;
-  height: auto; 
-  padding-left: 5px;
+.row img {
+  width:33.33%;
+  float: left;
+  padding: .25em;
 }
 
 footer {
   width: 100%;
-  position: absolute;
-  padding: 1.5em 0 3em 0;
+  padding: 1.5em 0 2em 0;
   background-color: #B2D7E6; 
   text-align: center;  
 }
 
 #footer-copy {
-  font-size: 1.1em;
   font-weight: 600;
+  margin-bottom: 1.2em;
 }
 
 .nav-links-bottom {
   text-align: center;
-  margin: 0px auto .2em;
+  margin: 0 auto .2em;
 }
 
 .nav-links-bottom-style {
-  padding: 0px 35px;
-  font-size: .9em;
+  padding: 0 2em;
+  font-size: .8em;
   color:#00004D;
   text-decoration:none;
 }
@@ -138,6 +123,93 @@ footer {
 }
 
 .social-icons {
-  padding: 1.5em 1em 1.4em 1em;
-  max-width: 50px;
+
+  margin: 1.7em 1em 1.4em 1em;
+  max-width: 45px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (max-width: 750px) {
+  h1{
+    padding: 0 0 0 .7em;
+  }
+  nav {
+    float: left;
+    margin: 0 1.8em;
+  }
+  .hero-image{
+    height: 300px;
+  }
+  #headline {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  button {
+  padding: 1.2em 2.1em;
+  font-size: .7em;
+  font-weight: 500;
+  }
+  #subhead {
+  margin: 0 .5em 1em .5em;
+  font-size: 1em;
+  font-weight: 500;
+  }
+}
+@media only screen and (max-width: 590px) {
+ nav {
+  float: right;
+  text-align: left;
+  }
+  .nav-links-top {
+    font-size: .8em;
+    display: block;
+    padding: .2em 0;
+  }
+  .hero-image{
+   height: 200px;
+  }
+  #headline {
+    font-size: .9em;
+    font-weight: 600;
+  }
+  button {
+  padding: 1em 2em;
+  font-size: .7em;
+  font-weight: 500;
+  }
+  #main {
+    width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  }
+  #subhead {
+  margin: 0 .5em .5em .5em;
+  font-size: .8em;
+  font-weight: 500;
+  }
+  .row {
+  float:none;
+  width: auto;
+  }
+  footer {
+  padding: 1em 0 1em 0;  
+  }
+  #footer-copy {
+  font-size: .9em;
+  font-weight: 500;
+  margin-bottom: .5em;
+  }
+  .nav-links-bottom-style {
+  font-size: .8em;
+  display: block;
+  padding: .2em 0;
+  }
+  .social-icons {
+  margin: 1em 1.4em 1em 1.4em;
+  max-width: 45px;
+  }
 }
