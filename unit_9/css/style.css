@@ -224,3 +224,13 @@
     max-width: 40px;
   }
 }
+
+
+@media only screen and (max-width: 480px) {
+  #headline {
+    margin-right: .5em;
+  }
+  button {
+      margin-top: .1em;
+  }
+}
